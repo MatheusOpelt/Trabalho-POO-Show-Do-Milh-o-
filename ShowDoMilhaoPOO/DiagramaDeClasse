@@ -1,0 +1,14 @@
++----------------+           +--------------+            +--------------+
+|   ShowDoMilhao  |           |   Pergunta   |            |    Jogador   |
++----------------+           +--------------+            +--------------+
+| - perguntas: List<Pergunta> | - pergunta: String     | - nome: String   |
+| - jogadores: List<Jogador>  | - opcoes: String       | - pontuacao: int |
+| - scanner: Scanner          | - resposta: String     |                  |
++----------------+           | - dificuldade: int     |                  |
+| + carregarPerguntas(arquivo: String): void  |                  |
+| + gravarPerguntas(arquivo: String): void    |                  |
+| + adicionarJogador(nome: String): void      |                  |
+| + jogar(): void             |                  |
+| - selecionarPerguntaAleatoria(): Pergunta   |                  |
++----------------+           +--------------+            +--------------+
+
