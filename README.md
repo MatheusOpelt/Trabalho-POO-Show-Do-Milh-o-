@@ -1,28 +1,30 @@
-Show do Milhão
-Este é um programa de perguntas e respostas baseado no famoso jogo Show do Milhão. Os jogadores devem responder a perguntas de múltipla escolha para acumular pontos.
+# Show do Milhão
 
-Funcionalidades
-Carregar perguntas de um arquivo externo.
-Adicionar jogadores.
-Realizar o jogo com rodadas de perguntas.
-Verificar as respostas dos jogadores e atualizar a pontuação.
-Gravar perguntas salvas em um arquivo.
-Requisitos
-Java Development Kit (JDK) instalado.
-Arquivo de perguntas no formato correto.
-Como executar o programa
-Certifique-se de que o arquivo "perguntas.txt" esteja presente no mesmo diretório do arquivo ShowDoMilhao.java.
-Abra um terminal ou prompt de comando.
-Navegue até o diretório onde o arquivo ShowDoMilhao.java está localizado.
-Compile o código-fonte executando o comando: javac ShowDoMilhao.java
-Execute o programa com o comando: java ShowDoMilhao
-Como adicionar perguntas
-Abra o arquivo "perguntas.txt" em um editor de texto.
-Cada pergunta deve estar em uma linha separada.
-Cada linha deve seguir o formato: pergunta,opções,resposta,dificuldade.
-A pergunta é a própria pergunta que será exibida para o jogador.
-As opções são as alternativas de resposta separadas por vírgula.
-A resposta é a letra ou opção correta.
-A dificuldade é um número inteiro que representa a dificuldade da pergunta.
-Adicione quantas perguntas desejar ao arquivo, seguindo o formato descrito.
-Salve o arquivo "perguntas.txt".
+## Descrição
+
+Este é um jogo de perguntas e respostas inspirado no famoso programa de televisão "Show do Milhão". O jogo possui um conjunto de perguntas carregadas a partir de um arquivo de texto e permite que os jogadores testem seus conhecimentos respondendo as perguntas. Cada jogador acumula pontuação com base nas respostas corretas.
+
+## Funcionalidades
+
+- Carregar perguntas a partir de um arquivo de texto
+- Adicionar jogadores ao jogo
+- Jogar, apresentando perguntas aos jogadores e verificando as respostas
+- Pontuar os jogadores com base nas respostas corretas
+- Gravar perguntas em um arquivo de texto
+
+## Requisitos
+
+- Java 8 ou superior
+
+## Como executar
+
+1. Clone o repositório para o seu ambiente local.
+2. Abra o terminal e navegue até a pasta raiz do projeto.
+3. Compile o código-fonte com o comando: `javac ShowDoMilhao.java`.
+4. Execute o jogo com o comando: `java ShowDoMilhao`.
+
+## Como adicionar perguntas
+
+1. Abra o arquivo `perguntas.txt` localizado na pasta do projeto.
+2. Adicione novas linhas seguindo o formato: `pergunta,opcoes,resposta,dificuldade`.
+3. Salve o arquivo.
