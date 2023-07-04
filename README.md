@@ -15,6 +15,8 @@ Este é um jogo de perguntas e respostas inspirado no famoso programa de televis
 ## Requisitos
 
 - Java 8 ou superior
+- Java Development Kit (JDK) instalado.
+- Arquivo de perguntas no formato correto.
 
 ## Como executar
 
